@@ -43,6 +43,6 @@ This web page expresses the beauty, spirituality, and culture of Varanasi throug
 
 ## 👩‍💻 Author
 
-- [Titli Purkait](https://www.linkedin.com/in/titli-purkait)
+- [Titli Purkait](https://www.linkedin.com/in/titlipurkait)
 - 💌 titlipurkait268@gmail.com
 
