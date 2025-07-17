@@ -1,0 +1,73 @@
+/* General layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rosybrown;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+  color: #333;
+  animation: fadeInBody 1s ease-in;
+}
+
+/* Page heading */
+h1 {
+  text-align: center;
+  color: #8b0000;
+  margin-bottom: 40px;
+  animation: slideDown 1s ease-out;
+}
+
+/* Section headings */
+section h2 {
+  color: #4b0082;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Audio/video/iframe styling */
+audio, video, iframe {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 10px;
+  animation: zoomIn 0.8s ease;
+}
+
+/* Paragraph styling */
+p {
+  max-width: 700px;
+  margin: 10px auto;
+  text-align: justify;
+  color: yellow;
+  animation: fadeInText 1.5s ease;
+}
+
+/* Animations */
+@keyframes fadeInBody {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fadeInText {
+  from { opacity: 0; letter-spacing: 2px; }
+  to { opacity: 1; letter-spacing: normal; }
+}
+
+
